@@ -29,16 +29,20 @@
           <input type="file" id="file" name="file">
           <p class="help-block">Not greater than 10mb</p>
         </div>
-       <div class="radio" >
-            <p class="text-primary">Do you agree with the terms and conditions?</p>
-          <label class="text-success"> 
-            <input type="checkbox"> Yes
+        <div class="form-check">
+          <p class="text-info">Do you agree with the terms and conditions?</p>
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio">Yes
           </label>
-          <label class="text-success"> 
-            <input type="checkbox"> No
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio"> No
           </label>
-          <label class="text-success"> 
-            <input type="checkbox"> Maybe
+        </div>
+        <div class="form-check disabled">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio" >Maybe
           </label>
         </div>
         <button type="submit" class="btn btn-success">Submit</button>
